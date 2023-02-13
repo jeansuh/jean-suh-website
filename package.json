@@ -1,7 +1,7 @@
 {
   "name": "my-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/jeansuh/jean-suh-website/",
   "dependencies": {
     "-": "^0.0.1",
