@@ -1,0 +1,85 @@
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  min-width: 800px;
+  padding-left: 130px;
+}
+
+.about{
+  padding-left: 128px;
+}
+
+.school-title{
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color:rgba(255, 255, 255, .7);
+  font-weight: 900;
+}
+
+
+.logo{
+  max-width: 20px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-right:150px;
+  margin-right: 100px;
+}
+
+.qualifications{
+  padding-left: 7px;
+}
+
+
+.content-title{
+  padding-right: 40px;
+  font-weight:900;
+  font-size: 4vmin;
+  color: PaleVioletRed;
+}
+
+.content-description{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+  color:rgba(255, 255, 255, .6);
+  border-left:1px solid rgba(255, 255, 255, .2);
+  width: 500px;
+  height:50px;
+  margin-top : 8px;
+  padding-left: 40px;
+  text-align: left;
+  font-size: 11pt;
+}
+
+
+.qualifications > .content-description{
+  height : 200px;
+}
+
+.skills{
+  padding-left:134px;
+}
+
+
+.skills > .content-description{
+  height : 300px;
+}
+
+.interests{
+  padding-left: 76px;
+}
+
+.interests > .content-description{
+  height : 120px;
+}
