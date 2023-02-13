@@ -1,3 +1,4 @@
+import React from 'react';
 import './Content.css'
 import hunter from './hunter.jpg'
 import bc from './bc.jpg'
