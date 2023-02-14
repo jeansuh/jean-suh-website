@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jeansuh/jean-suh-website/precache-manifest.c4203c9eb89c68ad65647a32e0584e37.js"
+  "/jean-suh-website/precache-manifest.b6f070d9174a936e283fd9100d869ff2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jeansuh/jean-suh-website/index.html", {
+workbox.routing.registerNavigationRoute("/jean-suh-website/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
