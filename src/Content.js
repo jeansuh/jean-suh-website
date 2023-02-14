@@ -37,7 +37,7 @@ function Content(){
             Computer Science<br/ >
             <br/ >
             <div className = "school-title">
-              <img src = {ga} className = "logo" />
+              {/*<img src = {ga} className = "logo" />*/}
             General Assembly - 2022<br/ >
             </div>
             Front-End Development Certification<br/ >
