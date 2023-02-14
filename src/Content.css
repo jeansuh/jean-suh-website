@@ -1,14 +1,17 @@
 .content-wrapper{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-around;
-  min-width: 800px;
-  padding-left: 130px;
+  min-width: 600px;
+  padding-right: 80px;
 }
 
 .about{
-  padding-left: 128px;
+  /* padding-left: 128px; */
+  /* width:600px; */
+  /* background-color:blue; */
+
 }
 
 .school-title{
@@ -31,12 +34,12 @@
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
-  padding-right:150px;
-  margin-right: 100px;
+  /* padding-right:150px;
+  margin-right: 100px; */
 }
 
 .qualifications{
-  padding-left: 7px;
+  /* margin-left: 7px; */
 }
 
 
@@ -55,7 +58,7 @@
   color:rgba(255, 255, 255, .6);
   border-left:1px solid rgba(255, 255, 255, .2);
   width: 500px;
-  height:50px;
+  height:145px;
   margin-top : 8px;
   padding-left: 40px;
   text-align: left;
@@ -64,16 +67,16 @@
 
 
 .qualifications > .content-description{
-  height : 200px;
+  height : 180px;
 }
 
 .skills{
-  padding-left:134px;
+  /* padding-left:134px; */
 }
 
 
 .skills > .content-description{
-  height : 300px;
+  height : 350px;
 }
 
 .interests{

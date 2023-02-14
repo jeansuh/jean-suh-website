@@ -14,7 +14,9 @@ function Content(){
             about
           </div>
           <div className = "content-description">
-            I'm from Astoria, New York, and I am currently attending Hunter College, studying to become a full stack developer. I aspire to develop effective websites and applications with a high focus on UI / UX.
+            Hi, I'm Jean, and I'm from Astoria, New York. I am currently attending Hunter College, studying to become a full stack developer. <br /><br />
+            As a visual learner and a problm solver, fullstack development is my passion. I aspire to develop effective websites and applications with a heavy focus on UI / UX, as well as reusable and well-written code.<br /><br />
+            I'm always open to new opportunities to learn and hone my skills.
           </div>
         </div>
 
@@ -51,13 +53,13 @@ function Content(){
             skills
           </div>
           <div className = "content-description">
-            Programming Languages <br />
-            C++<br/ >
+            Skills <br />
+            C++<br />
             C#<br/ >
             Python<br/ >
-            C++, C#, Python, Javascript, React, HTML, CSS<br/ >
-            git<br/ >
-            Adobe Suite<br/ >
+            Javascript<br/ > React<br/ > HTML<br/ > CSS<br/ >
+            Frontend development<br />
+            Graphic Design <br />
             <br />
             Languages<br/ >
             English<br/ >
@@ -65,6 +67,10 @@ function Content(){
             Japanese<br/ >
             French<br/ >
             <br/ >
+            Tools<br/ >
+            git<br/ >
+            Adobe Suite<br/ >
+
 
           </div>
         </div>
@@ -74,10 +80,12 @@ function Content(){
             interests
           </div>
           <div className = "content-description">
+            hobbies<br />
             baking<br />
-            D&D<br />
+            Dungeons & Dragons<br />
             fencing<br />
             illustration<br />
+            likes <br />
             Jeremy Elbertson<br />
             PETS
           </div>

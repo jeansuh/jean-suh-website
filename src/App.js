@@ -31,6 +31,7 @@ function ContactButton(){
 function App() {
   return (
     <div className="App">
+    <title>Jean Suh</title>
       <header className="App-header">
         <div className ="App-header-left">
           <div classNamte = "App-header-name">Jean Suh</div>
