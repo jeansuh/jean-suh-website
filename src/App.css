@@ -3,7 +3,7 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  min-height: 150vh;
+  min-height: 160vh;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;

@@ -53,7 +53,7 @@ function Content(){
             skills
           </div>
           <div className = "content-description">
-            Skills <br />
+            <div className = "bold"> Skills <br /></div>
             C++<br />
             C#<br/ >
             Python<br/ >
@@ -61,14 +61,14 @@ function Content(){
             Frontend development<br />
             Graphic Design <br />
             <br />
-            Languages<br/ >
+            <div className = "bold">Languages<br/ ></div>
             English<br/ >
             Korean<br/ >
             Japanese<br/ >
             French<br/ >
             <br/ >
-            Tools<br/ >
-            git<br/ >
+            <div className = "bold">Tools<br/ ></div>
+            Git<br/ >
             Adobe Suite<br/ >
 
 
@@ -80,14 +80,16 @@ function Content(){
             interests
           </div>
           <div className = "content-description">
-            hobbies<br />
-            baking<br />
+            <div className = "bold">Hobbies<br /></div>
+            Baking<br />
             Dungeons & Dragons<br />
-            fencing<br />
-            illustration<br />
-            likes <br />
+            Fencing<br />
+            Drawing<br />
+            Hiking<br />
+            <br />
+            <div className = "bold">Likes <br /></div>
             Jeremy Elbertson<br />
-            PETS
+            Stardew Valley
           </div>
         </div>
 
