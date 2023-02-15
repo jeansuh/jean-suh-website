@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/jean-suh-website/static/media/logo.06e73328.svg"
   },
   {
-    "revision": "5fa9b8456653442d98bad853c1be129f",
+    "revision": "dc121e5ba42794434889a195d2fbd142",
     "url": "/jean-suh-website/index.html"
   }
 ];
