@@ -5,7 +5,7 @@ import Content from './Content.js';
 import Links from './Links.js';
 import Header from './Header.js';
 import Portfolio from './Portfolio.js';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function ContactButton(){
   function handleClick(){
