@@ -1,5 +1,6 @@
 import React from 'react';
 import './Links.css'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 // function linkButton(){
 //   return(
@@ -31,9 +32,9 @@ function Links() {
       <div>
         /
       </div>
-      <div className = "links-button" >
+      <Link className = "links-button"  to = "/portfolio">
         porfolio
-      </div>
+      </Link>
     </div>
 
   )

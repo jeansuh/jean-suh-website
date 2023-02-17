@@ -23,6 +23,10 @@
   animation: Move-header 2s ease-in-out 1s forwards;
 }
 
+.App-header-name{
+  text-decoration: none;
+}
+
 .App-header-subtext{
   margin-top: -2px;
   font-weight: 300;

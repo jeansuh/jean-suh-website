@@ -2,7 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Content from './Content.js';
-import Links from './Links.js'
+import Links from './Links.js';
+import Header from './Header.js';
+import Portfolio from './Portfolio.js';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function ContactButton(){
   function handleClick(){
@@ -30,20 +33,43 @@ function ContactButton(){
 
 function App() {
   return (
-    <div className="App">
-    <title>Jean Suh</title>
-      <header className="App-header">
-        <div className ="App-header-left">
-          <div classNamte = "App-header-name">Jean Suh</div>
-          <div className= "App-header-subtext">Software Engineer</div>
-        </div>
-        <ContactButton />
-      </header>
-      <Links />
-      <Content />
-    </div>
+    <Router>
+      <div className="App">
+        <title>Jean Suh</title>
+        <Layout />
+        <Routes>
+          <Route path ="/" element ={<Home />}>
+            <Route index element={<Home />}/>
+          </Route>
+          <Route path = "/portfolio" element = {<Portfolio />}>
+            <Route index element = {<PortfolioLayout/>} />
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
+function PortfolioLayout(){
+  return(
+    <Portfolio />
+  )
+}
+
+function Home(){
+  return(
+    <Content />
+  )
+}
+
+function Layout(){
+  return(
+    <>
+      <Header />
+      <ContactButton />
+      <Links />
+    </>
+  )
+}
 
 export default App;

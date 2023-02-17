@@ -5,6 +5,18 @@
   justify-content: space-around;
   min-width: 600px;
   padding-right: 80px;
+  animation : content-transition .5s ease-in forwards;
+  opacity: 0;
+/*  transition : 2s linear 4s forwards;*/
+}
+
+@keyframes content-transition{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity: 100%;
+  }
 }
 
 .about{
@@ -69,6 +81,13 @@
   font-size: 11pt;
 }
 
+.interests > .content-description{
+  flex-direction: row;
+}
+
+.description-left{
+  margin-right: 70px;
+}
 
 .qualifications > .content-description{
   height : 180px;
@@ -88,5 +107,5 @@
 }
 
 .interests > .content-description{
-  height : 180px;
+  height : 150px;
 }

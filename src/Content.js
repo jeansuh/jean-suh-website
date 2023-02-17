@@ -1,8 +1,8 @@
 import React from 'react';
 import './Content.css'
-import hunter from './hunter.jpg'
-import bc from './bc.jpg'
-import ga from './ga.png'
+// import hunter from './hunter.jpg'
+// import bc from './bc.jpg'
+// import ga from './ga.png'
 
 function Content(){
 
@@ -15,7 +15,7 @@ function Content(){
           </div>
           <div className = "content-description">
             Hi, I'm Jean, and I'm from Astoria, New York. I am currently attending Hunter College, studying to become a full stack developer. <br /><br />
-            As a visual learner and a problm solver, fullstack development is my passion. I aspire to develop effective websites and applications with a heavy focus on UI / UX, as well as reusable and well-written code.<br /><br />
+            As a visual learner and a problm solver, full-stack development is my passion. I aspire to develop effective websites and applications with a heavy focus on UI / UX, as well as reusable and well-written code.<br /><br />
             I'm always open to new opportunities to learn and hone my skills.
           </div>
         </div>
@@ -29,9 +29,17 @@ function Content(){
               {/*<img src = {hunter} className = "logo" />*/}
               Hunter College - 2018 ~ 2023<br/ >
             </div>
-            Computer Science<br/ >
+            B.A. in Computer Science<br/ >
             Extra Curricular - Fencing : NCAA Northeast Regonal qualifier / Team Captain<br/ >
-            <br />
+            <br/>
+{/*            Relevant Courses<br />
+            Software Analysis and Design - Data Structures and Algorithms<br />
+            Computer Architecture<br />
+            Data Science<br/>
+            UI/UX Design<br/>
+            Into to APIs<br/>
+            Practical Web Development<br/>*/}
+
             <div className = "school-title">
               {/*<img src = {bc} className = "logo" />*/}
               Brooklyn college - 2017 ~ 2018<br/ >
@@ -53,23 +61,28 @@ function Content(){
             skills
           </div>
           <div className = "content-description">
-            <div className = "bold"> Skills <br /></div>
-            C++<br />
-            C#<br/ >
-            Python<br/ >
-            Javascript<br/ > React<br/ > HTML<br/ > CSS<br/ >
-            Frontend development<br />
-            Graphic Design <br />
-            <br />
-            <div className = "bold">Languages<br/ ></div>
-            English<br/ >
-            Korean<br/ >
-            Japanese<br/ >
-            French<br/ >
-            <br/ >
-            <div className = "bold">Tools<br/ ></div>
-            Git<br/ >
-            Adobe Suite<br/ >
+            <div className = "description-left">
+              <div className = "bold"> Skills <br /></div>
+              C++<br />
+              C#<br/ >
+              Python<br/ >
+              Javascript<br/ > React<br/ > HTML<br/ > CSS<br/ >
+              Frontend development<br />
+              Graphic Design <br />
+              <br />
+              <div className = "bold">Languages<br/ ></div>
+              English<br/ >
+              Korean<br/ >
+              Japanese<br/ >
+              French<br/ >
+              <br/ >
+              <div className = "bold">Tools<br/ ></div>
+              Git<br/ >
+              Adobe Suite<br/ >
+            </div>
+            <div className = "description-right">
+
+            </div>
 
 
           </div>
@@ -80,16 +93,25 @@ function Content(){
             interests
           </div>
           <div className = "content-description">
-            <div className = "bold">Hobbies<br /></div>
-            Baking<br />
-            Dungeons & Dragons<br />
-            Fencing<br />
-            Drawing<br />
-            Hiking<br />
-            <br />
-            <div className = "bold">Likes <br /></div>
-            Jeremy Elbertson<br />
-            Stardew Valley
+            <div className = "description-left">
+              <div className = "bold">Hobbies<br /></div>
+              Baking<br />
+              Dungeons & Dragons<br />
+              Plants<br />
+              Drawing<br />
+              Hiking<br />
+              Books<br />
+              Movies<br />
+              <br />
+            </div>
+            <div className = "description-right">
+              <div className = "bold">Likes <br /></div>
+              Jeremy Elbertson<br />
+              Stardew Valley<br />
+              Kirby<br />
+              The Coen Brothers<br />
+              Stanley Kubrick
+            </div>
           </div>
         </div>
 
