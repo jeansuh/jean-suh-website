@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "83365e4143fd150fd98c",
-    "url": "/jean-suh-website/static/css/main.e7fd8c0c.chunk.css"
+    "revision": "7877f4a6e570e593e952",
+    "url": "/jean-suh-website/static/css/main.58e33cea.chunk.css"
   },
   {
-    "revision": "83365e4143fd150fd98c",
+    "revision": "7877f4a6e570e593e952",
     "url": "/jean-suh-website/static/js/main.f76f3e2c.chunk.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/jean-suh-website/static/media/logo.06e73328.svg"
   },
   {
-    "revision": "6ddf2d8400e2c07069af18194678df4b",
+    "revision": "a6f5b1a95e599cd992af25c7e1278f79",
     "url": "/jean-suh-website/index.html"
   }
 ];
