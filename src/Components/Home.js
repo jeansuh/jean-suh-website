@@ -14,7 +14,7 @@ function Home(){
             about
           </div>
           <div className = "content-description">
-            Hi, I'm Jean, and I'm from Astoria, New York. I recently graduated from Hunter College with B.A. in Computer Science studying to become a full stack developer. <br /><br />
+            Hi, I'm Jean, and I'm from Astoria, New York. I recently graduated from Hunter College with B.A. in Computer Science. <br /><br />
             As a visual learner and a problm solver, full-stack development is my passion. I aspire to develop effective websites and applications with a heavy focus on UI / UX, as well as reusable and well-written code.<br /><br />
             I'm always open to new opportunities to learn and hone my skills.
           </div>
