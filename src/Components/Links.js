@@ -26,7 +26,7 @@ function Links() {
       <div>
         /
       </div>
-      <a href="./resume.pdf" download ="Jean-Suh-Resume" className = "links-button">
+      <a href="./Jean-Suh-Resume.pdf" download ="Jean-Suh-Resume" className = "links-button">
         resume
       </a>
       <div>

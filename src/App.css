@@ -75,9 +75,9 @@
   transition: background-color 1s;
 }
 
-.Contact:hover{
+/*.Contact:hover{
 	animation: gradient 5s ease infinite;
-}
+}*/
 
 @keyframes gradient {
   0%{

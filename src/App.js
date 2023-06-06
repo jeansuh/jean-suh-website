@@ -1,20 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Content from './Content.js';
-import Links from './Links.js';
-import Header from './Header.js';
-import Portfolio from './Portfolio.js';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Components/Home.js';
+import Links from './Components/Links.js';
+import Header from './Components/Header.js';
+import Portfolio from './Components/Portfolio.js';
+import Contact from './Components/Contact.js';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function ContactButton(){
-  function handleClick(){
-    alert('contact!');
-  }
   return (
-    <button className = "Contact" onClick = {handleClick}>
-      Contact
-    </ button>
+    <Link className="Contact" to={'/contact'}>
+      <button className = "Contact">
+        Contact
+      </ button>
+    </Link>
   );
 }
 
@@ -41,26 +40,15 @@ function App() {
           <Route path ="/" element ={<Home />}>
             <Route index element={<Home />}/>
           </Route>
-          <Route path = "/portfolio" element = {<Portfolio />}>
-            <Route index element = {<PortfolioLayout/>} />
-          </Route>
+          <Route path = "/portfolio" element = {<Portfolio />} />
+          <Route path = "/contact" element = {<Contact />} />
         </Routes>
       </div>
     </Router>
   );
 }
 
-function PortfolioLayout(){
-  return(
-    <Portfolio />
-  )
-}
 
-function Home(){
-  return(
-    <Content />
-  )
-}
 
 function Layout(){
   return(
