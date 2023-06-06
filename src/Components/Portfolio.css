@@ -1,0 +1,31 @@
+.portfolio-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 600px;
+  animation : portfolio-transition .5s linear forwards;
+  opacity: 0;
+}
+
+.portfolio{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 50px;
+  color:rgba(255, 255, 255, .7);
+}
+
+.portfolio > a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, .7);
+}
+
+
+@keyframes portfolio-transition{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

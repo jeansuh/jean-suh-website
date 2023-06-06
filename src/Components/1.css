@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@300;400;900&display=swap');
+
+.grid-container{
+  display : grid;
+  grid-template-columns : 1fr 100px;
+  grid-template-rows: repeat(6, 100px);
+  /* background-color: pink; */
+  color:white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 10vh;
+}
+
+.grid-container-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid-item-1{
+  grid-column: 1;
+  grid-row:1;
+  width:60vh;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.grid-item-subgrid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.grid-item-subgrid > .left{
+  grid-column: 1;
+  grid-row : 1;
+  max-width: 80px;
+}
+
+.grid-item-subgrid > .right{
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 20px;
+}
+
+.grid-item-2{
+  width:30vh;
+  height: 100px;
+  grid-column: 2;
+  grid-row:1;
+  background-color: black;
+  border:green solid;
+}
+
+.school-logo{
+  max-height: 80px;
+}
+
+.grid-item-3{
+  grid-column: 1;
+  grid-row: 2;
+
+  width:60vh;
+  height: 100px;
+  grid-template: subgrid;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.grid-item-4{
+  grid-column: 1;
+  grid-row: 2;
+  width:60vh;
+  height: 100px;
+  grid-template: subgrid;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.grid-item-5{
+  width:30vh;
+  height: 100px;
+  grid-column: 2;
+  grid-row:1;
+}
