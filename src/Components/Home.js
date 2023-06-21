@@ -14,80 +14,63 @@ function Home(){
             about
           </div>
           <div className = "content-description">
-            Hi, I'm Jean, and I'm from Astoria, New York. I recently graduated from Hunter College with B.A. in Computer Science. <br /><br />
-            As a visual learner and a problm solver, full-stack development is my passion. I aspire to develop effective websites and applications with a heavy focus on UI / UX, as well as reusable and well-written code.<br /><br />
-            I'm always open to new opportunities to learn and hone my skills.
+            <p>Hi, I'm Jean, and I'm a <span style={{fontWeight:'bold'}}>Full-Stack Web developer</span> based in Astoria, New York. </p>
+            <p>As an artist and a problm solver, full-stack development is my passion. I love to use my creativity and logical mind to develop websites / applications that are well programmed, visually striking and and user-friendly.</p>
+            <p>I also love learning new, cutting edge technologies and challenging myself in this ever-changing, exciting world of software development. </p>
+            <p>I'm always ready to dive into new and unique experiences</p>
+            <br /><br />
           </div>
         </div>
 
-        <div className = "qualifications content">
+{/*        <div className = "qualifications content">
           <div className = "content-title">
             qualifications
           </div>
           <div className = "content-description">
             <div className = "school-title">
-              {/*<img src = {hunter} className = "logo" />*/}
-              Hunter College - 2018 ~ 2023<br/ >
+              <p>Hunter College 2018 - 2023<br />B.A. in Computer Science<br/ ></p>
             </div>
-            B.A. in Computer Science<br/ >
-            Extra Curricular - Fencing : NCAA Northeast Regonal qualifier / Team Captain<br/ >
             <br/>
-{/*            Relevant Courses<br />
-            Software Analysis and Design - Data Structures and Algorithms<br />
-            Computer Architecture<br />
-            Data Science<br/>
-            UI/UX Design<br/>
-            Into to APIs<br/>
-            Practical Web Development<br/>*/}
-
-            <div className = "school-title">
-              {/*<img src = {bc} className = "logo" />*/}
-              Brooklyn college - 2017 ~ 2018<br/ >
-            </div>
-            Computer Science<br/ >
             <br/ >
             <div className = "school-title">
-              {/*<img src = {ga} className = "logo" />*/}
-            General Assembly - 2022<br/ >
+              <p>
+                General Assembly 2022
+              </p>
             </div>
             Front-End Development Certification<br/ >
 
 
           </div>
-        </div>
+        </div>*/}
 
         <div className = "skills content">
           <div className = "content-title">
             skills
           </div>
           <div className = "content-description">
-            <div className = "description-left">
-              <div className = "bold"> Skills <br /></div>
-              C++<br />
-              C#<br/ >
-              Python<br/ >
-              Javascript<br/ > React<br/ > HTML<br/ > CSS<br/ >
-              Frontend development<br />
-              Graphic Design <br />
-              <br />
-              <div className = "bold">Languages<br/ ></div>
-              English<br/ >
-              Korean<br/ >
-              Japanese<br/ >
-              French<br/ >
-              <br/ >
-              <div className = "bold">Tools<br/ ></div>
-              Git<br/ >
-              Adobe Suite<br/ >
-            </div>
-            <div className = "description-right">
-
-            </div>
+              <p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+              </p>
+              <p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
+{/*                <div className = "bold">Tools<br/ ></div>
+                Git<br/ >
+                Adobe Suite<br/ >
+                Figma<br />*/}
+              </p>
 
 
           </div>
         </div>
-
+{/*
         <div className = "interests content">
           <div className = "content-title">
             interests
@@ -104,18 +87,10 @@ function Home(){
               Movies<br />
               <br />
             </div>
-            <div className = "description-right">
-              <div className = "bold">Likes <br /></div>
-              Jeremy Elbertson<br />
-              Stardew Valley<br />
-              Kirby<br />
-              The Coen Brothers<br />
-              Stanley Kubrick
-            </div>
           </div>
         </div>
 
-      </div>
+   */}   </div>
     </div>
   //   <div className = "grid-container">
   //     <div className = "grid-container-row">
