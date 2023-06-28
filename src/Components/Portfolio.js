@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Portfolio.css';
 import Header from './Header.js';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -9,8 +9,42 @@ import CA from '../img/Campus.png';
 import GH from '../img/github-mark-white.svg';
 import LINK from '../img/popup-link-icon.svg';
 
+const mountedStyle = { animation : "inAnimation .2s ease-in"};
+const unmountedStyle = {
+	animation: "outAnimation .2s ease-out",
+	animationFillMode:"forwards"
+}
+
+const slideUp = {
+	animation:"slideUp .2s ease-out",
+	animationFillMode:"forwards",
+}
+
+const slideDown = {
+	animation:"slideDown .2s ease-out",
+}
+
+
 function Portfolio() {
-	
+	const [isHovered, setIsHovered] = useState(null);
+
+	const handleMouseOver = (e) => {
+		switch (e.target.id) {
+		case "1":
+			setIsHovered(1)
+			break
+		case "2":
+			setIsHovered(2)
+			break
+		case "3":
+			setIsHovered(3)
+			break
+		case "4":
+			setIsHovered(4)
+			break
+		}
+	}
+
 	return(
 		<div className = "portfolio-wrapper">
 			<div className = "portfolio">
@@ -19,10 +53,23 @@ function Portfolio() {
 						<img className="thumbnail" src={IGN} />
 					</a> 
 					<div className="portfolio-description">
-						<div className="portfolio-description-content pink-transition">
-							<div className = "project-title">IGN mock website</div>
-							<div className = "tech-stack">Javascript / HTML / CSS</div>
-							<div className = "hidden-text">Hi this is a project</div>
+						<div 
+						id = "1"
+						onMouseEnter={handleMouseOver} onMouseLeave={() => setIsHovered(null)}
+						className="portfolio-description-content pink-transition">
+							<div className = "portfolio-description-content-top"
+								style={isHovered===1 ? slideUp : slideDown}
+								>
+								<div className = "project-title ">
+									IGN mock website
+								</div>
+								<div className = "tech-stack">
+									Javascript / HTML / CSS
+								</div>
+							</div>
+							<div className = "hidden-text" style={isHovered ===1 ? mountedStyle : unmountedStyle}>
+								Front-end web-page project built for IGN summer internship. All data is parsed in Javascript from JSON file extracted through the IGN API endpoints.
+							</div>
 						</div>
 						<div className = "project-links">
 							<Link to="https://github.com/jeansuh/IGN-mock-website/tree/main/IGN-mock-website">
@@ -40,9 +87,24 @@ function Portfolio() {
 						<img className="thumbnail" src={SF} />
 					</a>
 					<div className="portfolio-description">
-						<div className="portfolio-description-content pink-transition">
-							<div className = "project-title">SafetyFirst</div>
-							<div className = "tech-stack">Django / Heroku / Javascript / HTML / CSS </div>
+						<div 
+							id = "2"
+							onMouseEnter={handleMouseOver} onMouseLeave={() => setIsHovered(null)}
+							className="portfolio-description-content pink-transition"
+						>
+							<div className = "portfolio-description-content-top"
+								style={isHovered===2 ? slideUp : slideDown}
+								>
+								<div className = "project-title">
+									SafetyFirst
+								</div>
+								<div className = "tech-stack">
+									Django / Heroku / Javascript / HTML / CSS 
+								</div>
+							</div>
+							<div className = "hidden-text"  style={isHovered ===2 ? mountedStyle : unmountedStyle}>
+								Group project in Agile environment where I worked as the sole front-end developer. This website looks up a license number and reports the driver's information.
+							</div>
 						</div>
 						<div className = "project-links">
 							<Link to="https://github.com/csci-499-fa22/team-4">
@@ -60,9 +122,21 @@ function Portfolio() {
 						<img className="thumbnail" src={WH} />
 					</a>
 					<div className="portfolio-description">
-						<div className="portfolio-description-content pink-transition">
-							<div className = "project-title">Wild Hearts API</div>
-							<div className = "tech-stack">C# / ASP.NET / MySQL</div>
+
+						<div 
+							id = "3"
+							onMouseEnter={handleMouseOver} onMouseLeave={() => setIsHovered(null)}
+							className="portfolio-description-content pink-transition"
+						>
+							<div className = "portfolio-description-content-top"
+								style={isHovered===3 ? slideUp : slideDown}
+								>
+								<div className = "project-title">Wild Hearts API</div>
+								<div className = "tech-stack">C# / ASP.NET / MySQL</div>
+							</div>
+							<div className = "hidden-text"  style={isHovered ===3 ? mountedStyle : unmountedStyle}>
+								API server created for EA video game Wild Hearts. The API endpoints allow you to add/edit entries, and give game data for players' convenience.
+							</div>
 						</div>
 						<div className = "project-links">
 							<Link to="https://github.com/jeansuh/wild-hearts-api">
@@ -78,9 +152,20 @@ function Portfolio() {
 						<img className="thumbnail" src={CA} />
 					</a>
 					<div className="portfolio-description">
-						<div className="portfolio-description-content pink-transition">
-							<div className = "project-title">Campus Management System</div>
-							<div className = "tech-stack">React.js / Javscript / HTML / CSS / PostgreSQL / Express / Node.js</div>
+						<div 
+							id = "4"
+							onMouseEnter={handleMouseOver} onMouseLeave={() => setIsHovered(null)}
+							className="portfolio-description-content pink-transition"
+						>
+							<div className = "portfolio-description-content-top"
+								style={isHovered===4 ? slideUp : slideDown}
+								>
+								<div className = "project-title">Campus Management System</div>
+								<div className = "tech-stack">React.js / Javscript / HTML / CSS / PostgreSQL / Express / Node.js / Redux</div>
+						</div>
+							<div className = "hidden-text"  style={isHovered ===4 ? mountedStyle : unmountedStyle}>
+								Full-stack PERN project where the back-end creates a server through PostgreSQL and Express, and relays the data to the front-end through Redux. The website manages CUNY campuses and its students.
+							</div>
 						</div>
 						<div className = "project-links">
 							<Link to="https://github.com/jeansuh/final-project-client">
