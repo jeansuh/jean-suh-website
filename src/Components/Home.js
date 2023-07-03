@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-// import hunter from './hunter.jpg'
+import Profile from '../img/profile.png'
 // import bc from './bc.jpg'
 // import ga from './ga.png'
 
@@ -11,13 +11,13 @@ function Home(){
       <div className = "content-wrapper">
         <div className = "about content">
           <div className = "content-title">
-            about
+            <img src={Profile} className="profile" />
           </div>
           <div className = "content-description">
-            <p>Hi, I'm Jean, and I'm a <span style={{fontWeight:'bold'}}>Full-Stack Web developer</span> based in Astoria, New York. </p>
-            <p>As an artist and a problm solver, full-stack development is my passion. I love to use my creativity and logical mind to develop websites / applications that are well programmed, visually striking and and user-friendly.</p>
+            <p>Hi, I'm Jean, and I'm a <span style={{fontWeight:'bold'}}>Front-End Developer</span> based in Astoria, New York. </p>
+            <p>As an artist and a problem solver, front-end development is my passion. I love to use my creativity and logical mind to develop websites / applications that are well programmed, visually striking and and user-friendly.</p>
             <p>I also love learning new, cutting edge technologies and challenging myself in this ever-changing, exciting world of software development. </p>
-            <p>I'm always ready to dive into new and unique experiences</p>
+            <p>I'm always ready to dive into new and unique experiences, so feel free to contact me whether it be about books, rock climbing or Dungeons & Dragons!</p>
             <br /><br />
           </div>
         </div>
@@ -44,9 +44,7 @@ function Home(){
         </div>*/}
 
         <div className = "skills content">
-          <div className = "content-title">
-            skills
-          </div>
+          <hr />
           <div className = "content-description">
               <p>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
@@ -66,80 +64,12 @@ function Home(){
                 Adobe Suite<br/ >
                 Figma<br />*/}
               </p>
-
-
-          </div>
-        </div>
-{/*
-        <div className = "interests content">
-          <div className = "content-title">
-            interests
-          </div>
-          <div className = "content-description">
-            <div className = "description-left">
-              <div className = "bold">Hobbies<br /></div>
-              Baking<br />
-              Dungeons & Dragons<br />
-              Plants<br />
-              Drawing<br />
-              Hiking<br />
-              Books<br />
-              Movies<br />
-              <br />
-            </div>
           </div>
         </div>
 
-   */}   </div>
+        <hr />
     </div>
-  //   <div className = "grid-container">
-  //     <div className = "grid-container-row">
-  //       <div className = "grid-item-1">
-  //         <div className = "grid-item-subgrid">
-  //           <img src = {hunter} className = "left" />
-  //           <div className = "right">
-  //             Hunter College - Computer Science <br />
-  //             2018 - 2023 (expected graduation)<br />
-  //           </div>
-  //         </div>
-  //       </div>
-  //       <div className = "grid-item-2">
-  //         ??
-  //       </div>
-  //     </div>
-  //
-  //
-  //     <div className = "grid-container-row">
-  //       <div className = "grid-item-3">
-  //         <div className = "grid-item-subgrid">
-  //           <img src = {bc} className = "left" />
-  //           <div className = "right">
-  //             Brooklyn College - Computer Science
-  //           </div>
-  //         </div>
-  //       </div>
-  //       <div className = "grid-item-2">
-  //         ??
-  //       </div>
-  //     </div>
-  //
-  //     <div className = "grid-container-row">
-  //       <div className = "grid-item-4">
-  //         <div className = "grid-item-subgrid">
-  //           <img src = {ga} className = "left" />
-  //           <div className = "right">
-  //             General Assembly <br />
-  //             Frontend Development Certification
-  //           </div>
-  //         </div>
-  //       </div>
-  //       <div className = "grid-item-5">
-  //       ?
-  //       </div>
-  //     </div>
-  //
-  //
-  //   </div>
+  </div>
   )
 }
 

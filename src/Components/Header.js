@@ -8,7 +8,7 @@ function Header(){
 	return(
 		<header className="App-header">
         	<div className ="App-header-left">
-          		<Link to = "/" style = {{ textDecoration: 'none', color: 'white' }}>
+          		<Link to = "/" style = {{ textDecoration: 'none', color: '#282c34' }}>
           			<div classNamte = "App-header-name" to = "/" >Jean Suh</div>
           			<div className= "App-header-subtext">Software Engineer</div>
           		</Link>
