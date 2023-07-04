@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 .content-wrapper{
   margin-top: 50px;
   display: flex;
@@ -96,6 +98,21 @@ hr:after {
   content: 'Skills';
 }
 
+.more-about>hr:after{
+  content:'§';
+}
+
+
+.more-title{
+  font-family: 'Lato';
+  font-weight:900;
+  font-style: italic;
+  font-size:21pt;
+  text-align: left;
+  margin-left: 80px;
+  margin-top:-20px;
+}
+
 .content-description{
   display: flex;
   align-items: flex-start;
@@ -134,5 +151,23 @@ hr:after {
   margin-right:15px;
 }
 
+.question{
+  font-family: 'Merryweather';
+  font-weight: 700;
+  font-size: 13pt;
+  margin-left:150px;
+  text-align: left;
+}
 
+.answer{
+  width:400px;
+  font-size:11pt;
+  margin-left:250px;
+  margin-bottom: 20px;
+  text-align: left;
+  color:rgb(40,44,52,.8);
+}
 
+section{
+  margin-top:30px;
+}

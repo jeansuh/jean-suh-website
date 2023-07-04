@@ -59,15 +59,35 @@ function Home(){
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
-{/*                <div className = "bold">Tools<br/ ></div>
-                Git<br/ >
-                Adobe Suite<br/ >
-                Figma<br />*/}
               </p>
           </div>
         </div>
-
-        <hr />
+        <div className="more-about">
+          <hr />
+            <div className="more-title">
+              More about me . . .
+            </div>
+            <section>
+              <div className="question">
+                When I'm not coding...
+              </div>
+              <div className="answer">
+                I'm either at the GYM, out with my friends, or at home reading / playing video games
+              </div>
+               <div className="question">
+                I geek out on...
+              </div>
+              <div className="answer">
+                Dog. And Cats. And possums. And very specific and niche directors and authors.
+              </div>
+               <div className="question">
+                This year I really want to...
+              </div>
+              <div className="answer">
+                Go to Olympic National Park.
+              </div>
+          </section>
+        </div>
     </div>
   </div>
   )
