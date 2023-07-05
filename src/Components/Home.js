@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css'
 import Profile from '../img/profile.png'
+import CB from '../img/curly-braces.svg';
 // import bc from './bc.jpg'
 // import ga from './ga.png'
 
 function Home(){
+
+  const [isHovered, setIsHovered] = useState(null);
+
+  const handleMouseOver = (e) => {
+    switch (e.target.id) {
+    case "1":
+      setIsHovered(1)
+      break
+    case "2":
+      setIsHovered(2)
+      break
+    case "3":
+      setIsHovered(3)
+      break
+    case "4":
+      setIsHovered(4)
+      break
+    }
+  }
 
   return (
     <div>
@@ -42,24 +62,30 @@ function Home(){
 
           </div>
         </div>*/}
-
+        <hr />
         <div className = "skills content">
-          <hr />
+          <div className="content-title">
+          </div>
           <div className = "content-description">
-              <p>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-              </p>
-              <p>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
-              </p>
+              {/*<img className="curly-braces" src={CB} />*/}
+              <div className="icons">
+                <p>
+                  <img id="1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+                </p>
+                <p>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" />
+                </p>
+              </div>
           </div>
         </div>
         <div className="more-about">

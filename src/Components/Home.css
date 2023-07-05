@@ -27,9 +27,6 @@
 }
 
 .about{
-  /* padding-left: 128px; */
-  /* width:600px; */
-  /* background-color:blue; */
 
 }
 
@@ -58,20 +55,13 @@
   justify-content: space-around;
   align-items: center;
   height:auto;
-  /* padding-right:150px;
-  margin-right: 100px; */
 }
 
-/*.qualifications > .content-description{
-}*/
 
 .content-title{
   padding-right: 40px;
   margin-bottom: 35px;
   width:180px;
-  font-weight:900;
-  font-size: 4vmin;
-  color: #db7081;
 }
 
 hr{
@@ -87,30 +77,12 @@ hr{
 
 hr:after {
     background-color: #f5f0eb;
+    content: 'Skills';
     font-size: 10pt;
     font-weight: 300;
     padding: 0 4px;
     position: relative;
     top: -13px;
-}
-
-.skills>hr:after{
-  content: 'Skills';
-}
-
-.more-about>hr:after{
-  content:'§';
-}
-
-
-.more-title{
-  font-family: 'Lato';
-  font-weight:900;
-  font-style: italic;
-  font-size:21pt;
-  text-align: left;
-  margin-left: 80px;
-  margin-top:-20px;
 }
 
 .content-description{
@@ -119,11 +91,11 @@ hr:after {
   justify-content: flex-start;
   flex-direction: column;
   color:rgb(40,44,52,.8);
-/*  border-left:1px solid rgba(255, 255, 255, .2);*/
   height:auto;
   width:500px;
   text-align: left;
   font-size: 11pt;
+    margin-bottom: 50px;
 }
 
 .interests > .content-description{
@@ -131,25 +103,53 @@ hr:after {
 }
 
 
-/*.qualifications > .content-description{
-  height : 180px;
-}*/
 
 .skills{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width:700px;
 }
 
 .skills > .content-description{
+  display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  justify-content: center;
+  margin-top:10px;
+  margin-left: 18px;
+}
+
+.skills > .content-title{
+  width:70px;
 }
 
 
-.skills > .content-description > p>img{
+.icons> p>img{
   height:50px;
-  margin-right:15px;
+  margin-right:18px;
 }
+
+.more-about>hr:after{
+  content:'§';
+}
+
+.curly-braces{
+  height:200px;
+  position: absolute;
+  margin-right:400px;
+  margin-top: 25px;
+}
+
+.more-title{
+  font-family: 'Lato';
+  font-weight:900;
+/*  font-style: italic;*/
+  font-size:21pt;
+  text-align: left;
+  margin-left: 80px;
+}
+
 
 .question{
   font-family: 'Merryweather';
@@ -157,12 +157,14 @@ hr:after {
   font-size: 13pt;
   margin-left:150px;
   text-align: left;
+  color:rgb(40,44,52,.8);
+
 }
 
 .answer{
   width:400px;
   font-size:11pt;
-  margin-left:250px;
+  margin-left:200px;
   margin-bottom: 20px;
   text-align: left;
   color:rgb(40,44,52,.8);
@@ -170,4 +172,5 @@ hr:after {
 
 section{
   margin-top:30px;
+  margin-left:60px;
 }

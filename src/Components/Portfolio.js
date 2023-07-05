@@ -73,10 +73,10 @@ function Portfolio() {
 						</div>
 						<div className = "project-links">
 							<Link to="https://github.com/jeansuh/IGN-mock-website/tree/main/IGN-mock-website">
-								<img className="link-logo-gh pink-transition" src={GH} />
+								<img className="link-logo-gh" src={GH} />
 							</Link>
 							<Link to="https://jeansuh.github.io/IGN-mock-website/ ">
-								<img className="link-logo-popup pink-transition" src={LINK} />
+								<img className="link-logo-popup" src={LINK} />
 							</Link>
 						</div>
 					</div>
