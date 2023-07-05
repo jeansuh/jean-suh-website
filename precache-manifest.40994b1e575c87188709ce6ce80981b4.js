@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "75f7cf6b8fc417a9f5e6",
-    "url": "/jean-suh-website/static/css/main.2890c723.chunk.css"
+    "revision": "dbcdca6c97eceffb13dd",
+    "url": "/jean-suh-website/static/css/main.bd3346a9.chunk.css"
   },
   {
-    "revision": "75f7cf6b8fc417a9f5e6",
-    "url": "/jean-suh-website/static/js/main.871bdb03.chunk.js"
+    "revision": "dbcdca6c97eceffb13dd",
+    "url": "/jean-suh-website/static/js/main.d9d690e3.chunk.js"
   },
   {
-    "revision": "0867cc7526a870d5d443",
-    "url": "/jean-suh-website/static/js/runtime~main.dbb44579.js"
+    "revision": "d7c9aaf21b86098da08b",
+    "url": "/jean-suh-website/static/js/runtime~main.67b35b88.js"
   },
   {
-    "revision": "a6978882bd7aaca8e1c6",
-    "url": "/jean-suh-website/static/js/2.c0c8c7c4.chunk.js"
+    "revision": "0f4ace4a2e4c8eb2ec19",
+    "url": "/jean-suh-website/static/js/2.294df805.chunk.js"
   },
   {
-    "revision": "5e1c4a9743c24123230f",
-    "url": "/jean-suh-website/static/js/3.02c98a0d.chunk.js"
+    "revision": "ff7f2396e4d79702702a",
+    "url": "/jean-suh-website/static/js/3.a712f853.chunk.js"
   },
   {
     "revision": "1a872e5aff6129030a99ad282375c43c",
@@ -48,7 +48,11 @@ self.__precacheManifest = [
     "url": "/jean-suh-website/static/media/Campus.175dac82.png"
   },
   {
-    "revision": "70b7c81147cfb78ef2532543a908e8f4",
+    "revision": "d74cb376ad4f1ebda274a55427b6c5ad",
+    "url": "/jean-suh-website/static/media/curly-braces.d74cb376.svg"
+  },
+  {
+    "revision": "5bbf7d2d43db2e6c281c69863214a239",
     "url": "/jean-suh-website/index.html"
   }
 ];

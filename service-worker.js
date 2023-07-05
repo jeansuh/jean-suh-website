@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jean-suh-website/precache-manifest.f72febb0a924e63b4d61fcbf646152ac.js"
+  "/jean-suh-website/precache-manifest.40994b1e575c87188709ce6ce80981b4.js"
 );
 
 workbox.clientsClaim();
