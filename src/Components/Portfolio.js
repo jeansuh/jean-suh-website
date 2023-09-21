@@ -8,6 +8,7 @@ import WH from '../img/WildHearts.png';
 import CA from '../img/Campus.png';
 import GH from '../img/github-mark-white.svg';
 import LINK from '../img/popup-link-icon.svg';
+import EC from '../img/makeup-website.png';
 
 const mountedStyle = { animation : "inAnimation .2s ease-in"};
 const unmountedStyle = {
@@ -41,6 +42,9 @@ function Portfolio() {
 			break
 		case "4":
 			setIsHovered(4)
+			break
+		case "5":
+			setIsHovered(5)
 			break
 		}
 	}
@@ -170,6 +174,38 @@ function Portfolio() {
 						<div className = "project-links">
 							<Link to="https://github.com/jeansuh/final-project-client">
 								<img className="link-logo-gh pink-transition" src={GH} />
+							</Link>
+						</div>
+					</div>
+				</div>
+
+				<div className="portfolio-item">
+					<a className="link" href = "https://www.figma.com/file/UFYCDkwG8v6HjTzFfDQQmq/Untitled?type=design&node-id=0%3A1&mode=design&t=0wh3FgI3KvQTIdrj-1"> 
+						<img className="thumbnail" src={EC} />
+					</a>
+					<div className="portfolio-description">
+						<div 
+							id = "5"
+							onMouseEnter={handleMouseOver} onMouseLeave={() => setIsHovered(null)}
+							className="portfolio-description-content pink-transition"
+						>
+							<div className = "portfolio-description-content-top"
+								style={isHovered===5 ? slideUp : slideDown}
+								>
+								<div className = "project-title">
+									Makeup E-commerce Website
+								</div>
+								<div className = "tech-stack">
+									Figma 
+								</div>
+							</div>
+							<div className = "hidden-text"  style={isHovered ===5 ? mountedStyle : unmountedStyle}>
+								A e-commerce website design for a make-up company. Includes log-in, shopping cart, and check out pages. Design keywords are moder, informative and ease-of-flow. Created on Figma.
+							</div>
+						</div>
+						<div className = "project-links">
+							<Link to="https://www.figma.com/file/UFYCDkwG8v6HjTzFfDQQmq/Untitled?type=design&node-id=0%3A1&mode=design&t=0wh3FgI3KvQTIdrj-1">
+								<img className="link-logo-gh pink-transition" src={LINK} />
 							</Link>
 						</div>
 					</div>
