@@ -37,7 +37,7 @@ function Home(){
             <p>Hi, I'm Jean, and I'm a <span style={{fontWeight:'bold'}}>Front-End Developer</span> based in Astoria, New York. </p>
             <p>As an artist and a problem solver, front-end development is my passion. I love to use my creativity and logical mind to develop websites / applications that are well programmed, visually striking and and user-friendly.</p>
             <p>I also love learning new, cutting edge technologies and challenging myself in this ever-changing, exciting world of software development. </p>
-            <p>I'm always ready to dive into new and unique experiences, so feel free to contact me whether it be about books, rock climbing or Dungeons & Dragons!</p>
+            <p>I'm always ready to dive into new and unique experiences, so feel free to contact me whether it be about books, new cooking recipes or Dungeons & Dragons!</p>
             <br /><br />
           </div>
         </div>
@@ -98,19 +98,19 @@ function Home(){
                 When I'm not coding...
               </div>
               <div className="answer">
-                I'm either at the GYM, out with my friends, or at home reading / playing video games
+                You can find me at the GYM, playing D&D, cooking, or at home reading / playing video games
               </div>
                <div className="question">
                 I geek out on...
               </div>
               <div className="answer">
-                Dog. And Cats. And possums. And very specific and niche directors and authors.
+                Possums. And movies & books.
               </div>
                <div className="question">
                 This year I really want to...
               </div>
               <div className="answer">
-                Go to Olympic National Park.
+                Go to Olympic National Park, and pick up a new framework.
               </div>
           </section>
         </div>
