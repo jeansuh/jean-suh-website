@@ -1,24 +1,24 @@
 {
-  "main.css": "/jean-suh-website/static/css/main.bd3346a9.chunk.css",
-  "main.js": "/jean-suh-website/static/js/main.bb53b342.chunk.js",
-  "main.js.map": "/jean-suh-website/static/js/main.bb53b342.chunk.js.map",
-  "runtime~main.js": "/jean-suh-website/static/js/runtime~main.3e314a41.js",
-  "runtime~main.js.map": "/jean-suh-website/static/js/runtime~main.3e314a41.js.map",
-  "static/js/2.d1322229.chunk.js": "/jean-suh-website/static/js/2.d1322229.chunk.js",
-  "static/js/2.d1322229.chunk.js.map": "/jean-suh-website/static/js/2.d1322229.chunk.js.map",
-  "static/js/3.b700955a.chunk.js": "/jean-suh-website/static/js/3.b700955a.chunk.js",
-  "static/js/3.b700955a.chunk.js.map": "/jean-suh-website/static/js/3.b700955a.chunk.js.map",
-  "index.html": "/jean-suh-website/index.html",
-  "precache-manifest.ac75ede977e596be3a41f10345d6a6b1.js": "/jean-suh-website/precache-manifest.ac75ede977e596be3a41f10345d6a6b1.js",
-  "service-worker.js": "/jean-suh-website/service-worker.js",
-  "static/css/main.bd3346a9.chunk.css.map": "/jean-suh-website/static/css/main.bd3346a9.chunk.css.map",
-  "static/media/Campus.png": "/jean-suh-website/static/media/Campus.175dac82.png",
-  "static/media/IGN.png": "/jean-suh-website/static/media/IGN.9508b315.png",
-  "static/media/SafetyFirst.png": "/jean-suh-website/static/media/SafetyFirst.150f868e.png",
-  "static/media/WildHearts.png": "/jean-suh-website/static/media/WildHearts.3c31ddd3.png",
-  "static/media/curly-braces.svg": "/jean-suh-website/static/media/curly-braces.d74cb376.svg",
-  "static/media/github-mark-white.svg": "/jean-suh-website/static/media/github-mark-white.1a872e5a.svg",
-  "static/media/makeup-website.png": "/jean-suh-website/static/media/makeup-website.2592a9b0.png",
-  "static/media/popup-link-icon.svg": "/jean-suh-website/static/media/popup-link-icon.3139c52a.svg",
-  "static/media/profile.png": "/jean-suh-website/static/media/profile.88962615.png"
+  "files": {
+    "main.css": "/jean-suh-website/static/css/main.2514ade3.css",
+    "main.js": "/jean-suh-website/static/js/main.141e01df.js",
+    "static/js/787.61f74e33.chunk.js": "/jean-suh-website/static/js/787.61f74e33.chunk.js",
+    "static/media/WildHearts.png": "/jean-suh-website/static/media/WildHearts.fb0eab88340585aeced2.png",
+    "static/media/profile.png": "/jean-suh-website/static/media/profile.7a5cc7d5107b979d44f5.png",
+    "static/media/SafetyFirst.png": "/jean-suh-website/static/media/SafetyFirst.f9fc6eabe4ef11a87c4a.png",
+    "static/media/Campus.png": "/jean-suh-website/static/media/Campus.2b2c605b3ebe4a115b50.png",
+    "static/media/IGN.png": "/jean-suh-website/static/media/IGN.1a8964db010a740f0fc3.png",
+    "static/media/makeup-website.png": "/jean-suh-website/static/media/makeup-website.63f433780270fe8f4c48.png",
+    "static/media/popup-link-icon.svg": "/jean-suh-website/static/media/popup-link-icon.03601b7f508490da96f6229e590db48c.svg",
+    "static/media/github-mark-white.svg": "/jean-suh-website/static/media/github-mark-white.f698f31f7d7cfb7cb8c80eda5d8b246e.svg",
+    "index.html": "/jean-suh-website/index.html",
+    "static/media/curly-braces.svg": "/jean-suh-website/static/media/curly-braces.77a1df9cb060baaeca6b5e2cc3cf680d.svg",
+    "main.2514ade3.css.map": "/jean-suh-website/static/css/main.2514ade3.css.map",
+    "main.141e01df.js.map": "/jean-suh-website/static/js/main.141e01df.js.map",
+    "787.61f74e33.chunk.js.map": "/jean-suh-website/static/js/787.61f74e33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2514ade3.css",
+    "static/js/main.141e01df.js"
+  ]
 }
