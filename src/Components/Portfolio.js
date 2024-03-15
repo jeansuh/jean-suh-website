@@ -200,7 +200,7 @@ function Portfolio() {
 								</div>
 							</div>
 							<div className = "hidden-text"  style={isHovered ===5 ? mountedStyle : unmountedStyle}>
-								A e-commerce website design for a make-up company. Includes log-in, shopping cart, and check out pages. Design keywords are moder, informative and ease-of-flow. Created on Figma.
+								A e-commerce website design for a make-up company. Includes log-in, shopping cart, and check out pages. Design keywords are modern, informative and ease-of-flow. Created on Figma.
 							</div>
 						</div>
 						<div className = "project-links">
