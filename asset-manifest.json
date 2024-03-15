@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jean-suh-website/static/css/main.2514ade3.css",
-    "main.js": "/jean-suh-website/static/js/main.141e01df.js",
+    "main.js": "/jean-suh-website/static/js/main.3deb8928.js",
     "static/js/787.61f74e33.chunk.js": "/jean-suh-website/static/js/787.61f74e33.chunk.js",
     "static/media/WildHearts.png": "/jean-suh-website/static/media/WildHearts.fb0eab88340585aeced2.png",
     "static/media/profile.png": "/jean-suh-website/static/media/profile.7a5cc7d5107b979d44f5.png",
@@ -14,11 +14,11 @@
     "index.html": "/jean-suh-website/index.html",
     "static/media/curly-braces.svg": "/jean-suh-website/static/media/curly-braces.77a1df9cb060baaeca6b5e2cc3cf680d.svg",
     "main.2514ade3.css.map": "/jean-suh-website/static/css/main.2514ade3.css.map",
-    "main.141e01df.js.map": "/jean-suh-website/static/js/main.141e01df.js.map",
+    "main.3deb8928.js.map": "/jean-suh-website/static/js/main.3deb8928.js.map",
     "787.61f74e33.chunk.js.map": "/jean-suh-website/static/js/787.61f74e33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2514ade3.css",
-    "static/js/main.141e01df.js"
+    "static/js/main.3deb8928.js"
   ]
 }
