@@ -1,170 +1,121 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css'
-// import hunter from './hunter.jpg'
+import Profile from '../img/profile.png'
+import CB from '../img/curly-braces.svg';
 // import bc from './bc.jpg'
 // import ga from './ga.png'
 
 function Home(){
+
+  const [isHovered, setIsHovered] = useState(null);
+
+  const handleMouseOver = (e) => {
+    switch (e.target.id) {
+    case "1":
+      setIsHovered(1)
+      break
+    case "2":
+      setIsHovered(2)
+      break
+    case "3":
+      setIsHovered(3)
+      break
+    case "4":
+      setIsHovered(4)
+      break
+    }
+  }
 
   return (
     <div>
       <div className = "content-wrapper">
         <div className = "about content">
           <div className = "content-title">
-            about
+            <img src={Profile} className="profile" />
           </div>
           <div className = "content-description">
-            Hi, I'm Jean, and I'm from Astoria, New York. I recently graduated from Hunter College with B.A. in Computer Science studying to become a full stack developer. <br /><br />
-            As a visual learner and a problm solver, full-stack development is my passion. I aspire to develop effective websites and applications with a heavy focus on UI / UX, as well as reusable and well-written code.<br /><br />
-            I'm always open to new opportunities to learn and hone my skills.
+            <p>Hi, I'm Jean, and I'm a <span style={{fontWeight:'bold'}}>Front-End Developer</span> based in Astoria, New York. </p>
+            <p>As an artist and a problem solver, front-end development is my passion. I love to use my creativity and logical mind to develop websites / applications that are well programmed, visually striking and and user-friendly.</p>
+            <p>I also love learning new, cutting edge technologies and challenging myself in this ever-changing, exciting world of software development. </p>
+            <p>I'm always ready to dive into new and unique experiences, so feel free to contact me whether it be about books, new cooking recipes or Dungeons & Dragons!</p>
+            <br /><br />
           </div>
         </div>
 
-        <div className = "qualifications content">
+{/*        <div className = "qualifications content">
           <div className = "content-title">
             qualifications
           </div>
           <div className = "content-description">
             <div className = "school-title">
-              {/*<img src = {hunter} className = "logo" />*/}
-              Hunter College - 2018 ~ 2023<br/ >
+              <p>Hunter College 2018 - 2023<br />B.A. in Computer Science<br/ ></p>
             </div>
-            B.A. in Computer Science<br/ >
-            Extra Curricular - Fencing : NCAA Northeast Regonal qualifier / Team Captain<br/ >
             <br/>
-{/*            Relevant Courses<br />
-            Software Analysis and Design - Data Structures and Algorithms<br />
-            Computer Architecture<br />
-            Data Science<br/>
-            UI/UX Design<br/>
-            Into to APIs<br/>
-            Practical Web Development<br/>*/}
-
-            <div className = "school-title">
-              {/*<img src = {bc} className = "logo" />*/}
-              Brooklyn college - 2017 ~ 2018<br/ >
-            </div>
-            Computer Science<br/ >
             <br/ >
             <div className = "school-title">
-              {/*<img src = {ga} className = "logo" />*/}
-            General Assembly - 2022<br/ >
+              <p>
+                General Assembly 2022
+              </p>
             </div>
             Front-End Development Certification<br/ >
 
 
           </div>
-        </div>
-
+        </div>*/}
+        <hr />
         <div className = "skills content">
-          <div className = "content-title">
-            skills
+          <div className="content-title">
           </div>
           <div className = "content-description">
-            <div className = "description-left">
-              <div className = "bold"> Skills <br /></div>
-              C++<br />
-              C#<br/ >
-              Python<br/ >
-              Javascript<br/ > React<br/ > HTML<br/ > CSS<br/ >
-              Frontend development<br />
-              Graphic Design <br />
-              <br />
-              <div className = "bold">Languages<br/ ></div>
-              English<br/ >
-              Korean<br/ >
-              Japanese<br/ >
-              French<br/ >
-              <br/ >
-              <div className = "bold">Tools<br/ ></div>
-              Git<br/ >
-              Adobe Suite<br/ >
-            </div>
-            <div className = "description-right">
-
-            </div>
-
-
+              {/*<img className="curly-braces" src={CB} />*/}
+              <div className="icons">
+                <p>
+                  <img id="1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+                </p>
+                <p>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+                </p>
+              </div>
           </div>
         </div>
-
-        <div className = "interests content">
-          <div className = "content-title">
-            interests
-          </div>
-          <div className = "content-description">
-            <div className = "description-left">
-              <div className = "bold">Hobbies<br /></div>
-              Baking<br />
-              Dungeons & Dragons<br />
-              Plants<br />
-              Drawing<br />
-              Hiking<br />
-              Books<br />
-              Movies<br />
-              <br />
+        <div className="more-about">
+          <hr />
+            <div className="more-title">
+              More about me . . .
             </div>
-            <div className = "description-right">
-              <div className = "bold">Likes <br /></div>
-              Jeremy Elbertson<br />
-              Stardew Valley<br />
-              Kirby<br />
-              The Coen Brothers<br />
-              Stanley Kubrick
-            </div>
-          </div>
+            <section>
+              <div className="question">
+                When I'm not coding...
+              </div>
+              <div className="answer">
+                You can find me at the GYM, playing D&D, cooking, or at home reading / playing video games
+              </div>
+               <div className="question">
+                I geek out on...
+              </div>
+              <div className="answer">
+                Possums. And movies & books.
+              </div>
+               <div className="question">
+                This year I really want to...
+              </div>
+              <div className="answer">
+                Go to Olympic National Park, and pick up a new framework.
+              </div>
+          </section>
         </div>
-
-      </div>
     </div>
-  //   <div className = "grid-container">
-  //     <div className = "grid-container-row">
-  //       <div className = "grid-item-1">
-  //         <div className = "grid-item-subgrid">
-  //           <img src = {hunter} className = "left" />
-  //           <div className = "right">
-  //             Hunter College - Computer Science <br />
-  //             2018 - 2023 (expected graduation)<br />
-  //           </div>
-  //         </div>
-  //       </div>
-  //       <div className = "grid-item-2">
-  //         ??
-  //       </div>
-  //     </div>
-  //
-  //
-  //     <div className = "grid-container-row">
-  //       <div className = "grid-item-3">
-  //         <div className = "grid-item-subgrid">
-  //           <img src = {bc} className = "left" />
-  //           <div className = "right">
-  //             Brooklyn College - Computer Science
-  //           </div>
-  //         </div>
-  //       </div>
-  //       <div className = "grid-item-2">
-  //         ??
-  //       </div>
-  //     </div>
-  //
-  //     <div className = "grid-container-row">
-  //       <div className = "grid-item-4">
-  //         <div className = "grid-item-subgrid">
-  //           <img src = {ga} className = "left" />
-  //           <div className = "right">
-  //             General Assembly <br />
-  //             Frontend Development Certification
-  //           </div>
-  //         </div>
-  //       </div>
-  //       <div className = "grid-item-5">
-  //       ?
-  //       </div>
-  //     </div>
-  //
-  //
-  //   </div>
+  </div>
   )
 }
 

@@ -8,8 +8,10 @@ function Header(){
 	return(
 		<header className="App-header">
         	<div className ="App-header-left">
-          		<Link classNamte = "App-header-name" to = "/" style = {{ textDecoration: 'none', color: 'white' }}>Jean Suh</Link>
-          		<div className= "App-header-subtext">Software Engineer</div>
+          		<Link to = "/" style = {{ textDecoration: 'none', color: '#282c34' }}>
+          			<div classNamte = "App-header-name" to = "/" >Jean Suh</div>
+          			<div className= "App-header-subtext">Software Engineer</div>
+          		</Link>
         	</div>
       </header>
     )

@@ -2,13 +2,16 @@
 
 .App {
   text-align: center;
-  background-color: #282c34;
-  min-height: 160vh;
+/*  background-color: #282c34;*/
+background-color: #f5f0eb;
+  min-height: 120vh;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: default;
+  padding-bottom: 50px;
+  color:#282c34;
 }
 
 .App-header {
@@ -18,20 +21,21 @@
   align-items: center;
   justify-content: center;
   font-size: calc(80px + 2vmin);
-  color: white;
+  color: #282c34;;
   font-weight: 900;
   animation: Move-header 2s ease-in-out 1s forwards;
 }
 
 .App-header-name{
   text-decoration: none;
+  color:#282c34;
 }
 
 .App-header-subtext{
-  margin-top: -2px;
+  margin-top: -10px;
   font-weight: 300;
   font-size: calc(5px + 2vmin);
-  color: rgba(255,255,255, 0);
+  color: #282c34;
   animation : Header-subtext-fadein 2s linear 3s forwards;
 }
 
@@ -43,7 +47,7 @@
   font-weight: 300;
   font-size: calc(5px + 2vmin);
   text-align: left;
-  color: rgba(255,255,255, 0);
+  color: #282c34;
   /* border-left: solid lightgrey; */
   padding-left: 3vh;
   animation : Header-subtext-fadein 2s ease-out 4s forwards;
@@ -55,10 +59,6 @@
   position: in-block;
 }
 
-
-.App-link {
-  color: #61dafb;
-}
 
 .Contact{
   position: fixed;
@@ -79,32 +79,15 @@
 	animation: gradient 5s ease infinite;
 }*/
 
-@keyframes gradient {
-  0%{
-    background-color: PaleVioletRed;
-  }
-  25% {
-		background:MediumOrchid;
-	}
-	50% {
-    background: MediumPurple;
-	}
-	75% {
-    background: thistle;
-	}
-  100%{
-    background-color: PaleVioletRed;
-  }
-}
 
-@keyframes Header-subtext-fadein{
+/*@keyframes Header-subtext-fadein{
   from {
     color: rgba(255,255,255, 0);
   }
   to {
     color: rgba(255,255,255, 1);
   }
-}
+}*/
 
 @keyframes Move-header{
   from {
@@ -118,11 +101,3 @@
   }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

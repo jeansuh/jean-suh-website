@@ -4,6 +4,8 @@
 	display:flex;
 	margin-top:100px;
 	width:400px;
+	animation : portfolio-transition .5s linear forwards;
+	opacity: 0;
 }
 
 .contact-form{
@@ -48,4 +50,13 @@
 	border-color:rgb(0,0,0,0);
 	background-color: PaleVioletRed;
 	color:white;
+}
+
+@keyframes portfolio-transition{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
